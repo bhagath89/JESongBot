@@ -26,7 +26,7 @@ Heya [{}](tg://user?id={}), I'm Song Bot 🎵
 
 Do /help for know about me!
 
-A bot by **@Infinity_BOTs**
+A bot by **@Zabotz**
 """
 
 help_text = """
@@ -34,7 +34,7 @@ I can download HQ songs from YouTube Music
 
 **Syntax** - `/song [song name]`
 
-A bot by **@Infinity_BOTs**
+A bot by **@Zabotz**
 """
 
 @bot.on_message(filters.command("start") & ~filters.edited)
@@ -47,10 +47,10 @@ async def start(client, message):
             [
                 [
                     InlineKeyboardButton(
-                        text="Source", url="https://github.com/ImJanindu/JESongBot"
+                        text="Support", url="NoobiezHub"
                     ),
                     InlineKeyboardButton(
-                        text="Dev", url="https://t.me/JEBotZ"
+                        text="Dev", url="https://t.me/zabotz"
                     )
                 ]
             ]
